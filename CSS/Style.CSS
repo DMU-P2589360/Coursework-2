@@ -1,0 +1,1206 @@
+/*Styling of elements that are on everypage*/
+body { /*Styling of body*/
+background-image: url('../Image/background.png');/*background image-URL linking to image*/
+background-repeat: no-repeat;/*No repeat informing the browser not to repeat background image*/
+background-attachment: fixed; /*Fixed-ensures the background image wont move*/
+background-size: cover; /*Ensures the image covers the entire page*/
+margin: 0; /*Ensures there is no border*/
+}
+h1 { /*Styling of h1 (title text)*/
+color: red; /*Changed the main headings to red*/
+text-align: center; /* Main headings was aligned so it is central*/
+font-family: 'Diplomata SC', cursive; /*Font family designated-chosen from google fonts*/
+transition:transform 1s; /*Informs the browser to take 1 second complete the transition of header*/
+}
+h1:hover { /*Styling of h1 (title text) when user hovers over it*/
+font-size: 50px;/*Informs the browser that the header's font size should increase too 50px*/
+}
+
+/*Styling of footer*/
+footer {
+text-align: center; /* Tells the browser to align the text in the footer central*/
+align-items: center; /*Tells the browser to align the items/content in the footer central*/
+font-family: 'PT Serif Caption', serif; /*The font family designated-chosen from google fonts*/
+color: White; /*Text color-white*/
+background-color: lightblue; /*Background colour set to light blue to match color theme*/
+font-weight: bold; /*Bold-Ensures the text stands out*/
+margin-top: 20px; /*A margin at the top set a 20px, so content doesnt overlap*/
+}
+/*Styling of logo*/
+#Logo {
+width: 100px; /*Width: set at 100px*/
+height: 100px; /*Height: also set at 100px- ensures consitency*/
+transition: width 1s, height 1s, transform 1s; /*Informs the browser to take 1 second complete transform the logo, adjust the height and width*/
+}
+/*Styling of logo when user hovers over it*/
+#Logo:hover { /*:hover- tells the browser to activate these commands when the user hovers over the logo*/
+width:200px; /*Informs the browser that the logo should now be 200px wide*/
+height: 200px; /*Informs the browser that the logo should now be 200px tall*/
+}
+
+/*Styling of home page*/
+.home p{ /*Styling of paragraphs on homepage*/
+text-align: center; /*Informs the browser that the text should be aligned centrally*/
+padding: 10px; /*Padding- the gap between text*/
+font-family: 'PT Serif Caption', serif; /*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+background-color: white; /*Tells the browser the backgroud color behind the text should be white*/
+outline: 1.5px solid black; /*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+margin-left: 40px; /*Margin left set at 40px- ensures text is central on the page*/
+margin-right: 40px; /*Margin rigth also set at 40px ensures consistency both sides and it is central*/
+}
+.slideshow-container { /*Styling of Image slideshow*/
+width: 80%; /*Ensures width of images are set at 100%*/
+padding:10px; /* Padding set at 10px- ensures no content nearby overlaps*/
+display: flex; /* Displayed as a flex box so certain commands can be operated*/
+justify-content: center; /*Justify content:center used so the image slideshow is central on page */
+}
+iframe { /*Styling of google map*/
+width:90%; /*Ensures width of google map is set at 100%*/
+height:600px; /*Ensures height of google map so the map doesnt fill to much of page*/
+padding: 10px; /* Padding set at 10px- ensures no content nearby overlaps*/
+}
+#maptext { /*Styling of text encouraging users to use the map*/
+text-align: center; /*Informs the browser that the text should be aligned centrally*/
+font-family: 'PT Serif Caption', serif; /*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+background-color: white; /*Tells the browser the backgroud color behind the text should be white*/
+outline: 1.5px solid black; /*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+margin-left: 20px; /*Margin left set at 40px- ensures text is central on the page*/
+margin-right: 20px; /*Margin right also set at 40px ensures consistency both sides and it is central*/
+}
+#welcome { /*Styling of text welcoming users to the site*/
+text-align: center;/*Informs the browser that the text should be aligned centrally*/
+font-family: 'PT Serif Caption', serif; /*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+background-color: white; /*Tells the browser the backgroud color behind the text should be white*/
+outline: 1.5px solid black; /*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+margin-left: 40px; /*Margin left set at 20px- ensures text is central on the page*/
+margin-right: 40px; /*Margin right also set at 20px ensures consistency both sides and it is central*/
+}
+#Londoninfo { /*Styling of text giving users information on London*/
+text-align: center;/*Informs the browser that the text should be aligned centrally*/
+font-family: 'PT Serif Caption', serif; /*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+background-color: white; /*Tells the browser the backgroud color behind the text should be white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+margin-left: 40px; /*Margin left set at 40px- ensures text is central on the page*/
+margin-right: 40px; /*Margin right also set at 40px ensures consistency both sides and it is central*/
+}
+#pompandcircumstanceaudio { /*Styling of the JBox containg the audio*/
+font-family: 'PT Serif Caption', serif; /*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+align-items: center; /*Tells the browser to align the box centrally*/
+text-align: center; /*Informs the browser that the text should be aligned centrally*/
+outline: 1.5px solid black; ;/*Tells the browser the outline of the box should 1.5px, solid and color black*/
+margin-left: 39.5%; /*Margin lef-39.5% implemented to ensure the box is central*/
+background-color: red; /*Tells the browser the backgroud color of the box should be red */
+color: white; /*Tells the browser the text of box should be white*/
+width: 20%; /*Tells the browser the width of the box should be 20%*/
+height: 20%; /*Tells the browser the height of the box should be 20%*/
+font-size: 15px; /*Tells the browser the font size of the text in the box should be 15px*/
+}
+
+/*Styling of Social media buttons wihtin the footer*/
+#tlogo { /*Styling of twitter logo*/
+padding: 20px; /*Padding set at 20px ensuring logos do not overlap*/
+margin: 5px; /*Margin 5px ensuring the logos are equal distance apart*/
+width:100px; /*Width set at 100px-same as logo creates consitancy*/
+height: 100px; /*Height set at 100px-same as logo creates consitancy*/
+}
+#tlogo:hover {
+opacity: 0.7;/*Opacity reduced to highlight to viewer they are hovered over the social media button*/
+}
+#flogo {
+padding: 20px; /*Padding set at 20px ensuring logos do not overlap*/
+margin: 5px; /*Margin 5px ensuring the logos are equal distance apart*/
+width:100px; /*Width set at 100px-same as logo creates consitancy*/
+height: 100px; /*Height set at 100px-same as logo creates consitancy*/
+}
+#flogo:hover {
+opacity: 0.7;/*Opacity reduced to highlight to viewer they are hovered over the social media button*/
+}
+#ilogo {
+padding: 20px; /*Padding set at 20px ensuring logos do not overlap*/
+margin: 5px; /*Margin 5px ensuring the logos are equal distance apart*/
+width:100px; /*Width set at 100px-same as logo creates consitancy*/
+height: 100px; /*Height set at 100px-same as logo creates consitancy*/
+}
+#ilogo:hover {
+opacity: 0.7; /*Opacity reduced to highlight to viewer they are hovered over the social media button*/
+}
+
+/*Styling of Navigation menu*/
+.navbar { /*Styling of the navigation bar*/
+overflow: hidden;/*Ensures if any of it overflowing off the page it is hidden from user view*/
+background-color: Red; /*Background color set to red*/
+width: 100%; /*Width set to 100% so it stretches the whole length of the page*/
+font-family: sans-serif;/*Font family the designated font- to differeniate from paragroah text*/
+font-weight: bold;/*ensures text stands out*/
+}
+.navbar a { /*Styling of anchor elements with the navigation menu (links to pages)*/
+float: left; /*Ensures the anchor element starts from the left hand side*/
+font-size: 16px; /*Font set set to 16 px*/
+color: White; /*Color set to white- contrast from red*/
+text-align: center; /*Tells the browser to align the text centrally*/
+padding: 14px; /*Padding set to 14px- ensures gap between them*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.subnav { /*Styling of the sub navigation menu*/
+float: left; /*Ensures the Sub navigation menu starts from the left hand side*/
+overflow: hidden; /*Ensures if any of it overflowing off the page it is hidden from user view*/
+}
+.subnav .subnavbtn { /*Styling of the sub navigation menu and button which activates Sub navigation menu*/
+font-size: 10px; /*Font size set to 10px- smaller than navigation menu-indicates it is sub menu*/
+border: none; /*Ensures there is no border*/
+outline: none; /*Ensures there is no outline*/
+color: Black; /*Color-black the color the text is- dfferentiates from navigation menu-shows it is sub menu*/
+padding-left: 10px; /*Padding left set a 10px, show there is gap between the elements of the sub navigation menu*/
+background-color: inherit; /* Background color- the color of the bar and button *//*Inherit- takes data from parent element- ensures consistency*/
+font-family: inherit;/*Font family the designated font*/ /*Inherit- takes data from parent element- ensures consistency*/
+margin: 0; /*No margin*/
+font-weight: bold;/*ensures text stands out*/
+}
+.navbar a:hover, .subnav:hover .subnavbtn { /*Styling of hovering over nav bar anchor element, hovering over sub nav and sub navigation button*/
+background-color: lightblue; /*Informs the browser to set the background color of lightblue*/
+}
+.subnav-content {
+display: none; /*Ensures that the content doesn't dislay until the sub navigation button is hovered over*/
+position: absolute; /*Position absolute means the content is positioned relative to the nearest ancestor*/
+left: 0; /*Left set at 0 so it not shifted left off the site*/
+background-color: white; /*Tells the browser to set the background colour of the content as white*/
+width: 100%;  /*Width set to 100% so it stretches the whole length of the page*/
+z-index: 1; /*Specifies the order the element is stack- assures the button don't stack- 1 assures they are all in line*/
+color: Black; /*Color- set the text as black*/
+}
+.subnav-content a { /*Styling of the anchor elements within the sub navigation content*/
+float: left; /*Float left assures the anchor element is postioned left within the button*/
+color: Black; /*Color- set the text as black*/
+text-decoration: none; /*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.subnav-content a:hover { /*Styling of when the sub navigation content are hovered over*/
+background-color: lightblue; /*Background color blue- differeniates from fixed background color*/
+}
+.subnav:hover .subnav-content { /*Styling of hovering over subnavigation menu and sub navigatio content*/
+display: block; /*Display set as block- ensures the correct layout is of content is adhered*/
+}
+.search { /*Styling of search box*/
+float: left; /*Float let-ensures the search box aligns next to sub naviagtion button*/
+padding-left: 10px; /*Padding-10px enensures the box doesnt overlap with navigation menu*/
+}
+.navbar input[type=text] {
+  border: 1px solid #ccc;
+  color: black;
+}
+#submit { /*Styling of Submit button*/
+margin-bottom: 10px; /*Margin buttom set at 10px so it is inline with sub navigation content*/
+}
+
+/*Styling of things to do page*/
+.Thingstodo { /*Styling of Things to do div*/
+display: flex; /*Displayed as a flex box so certain commands can be operated*/
+flex-direction: column; /*Ensures content align in a column (vertical)*/
+}
+.Thingstodo img { /*Styling of images on things to do page*/
+display: flex; /*Displayed as a flex box so certain commands can be operated*/
+justify-content: space-between; /*Ensures there is equal space between each images*/
+width: 70%;/*Width of images set a 70%- helps compatibilty with mobile*/
+height:80%; /*Height of images set at 80%- ensures they are still proportionate*/
+transition: width 1s, height 1s, transform 1s;/*Informs the browser to take 1 second complete transform the logo, adjust the height and width*/
+padding-top:30px; /*Padding of top set at 30px content on top doesnt overlap*/
+margin-left: 15%; /*Margin left set at 15%- so central on page*/
+}
+.Thingstodo img:hover { /*Styling of the images on things to do page once they are hovered over*/
+width: 95%; /*Informs the browser to adjust the width bigger to 95% when image is hovered*/
+margin-left: 2.5%; /*Informs the browser to adjust the margin smaller to 2.5% when image is hovered as image is bigger*/
+}
+.Thingstodo button{ /*Styling of button on things to do page*/
+width:70%;  /*Width of Button set to 70%- to match images*/
+text-decoration: none; /*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of site*/
+border-color: white; /*Border color set as white so a button has a white border*/
+display: inline-block;/*Diffrent to display: inline, display: inline-block allows to set a width and height on the element.*/
+margin-left: 15%; /*Margin left 15%-matches image*/
+}
+.Thingstodo button a:hover{ /*Styling of anchor elements within the button when they are hovered*/
+font-size: 20px; /*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Thingstodo button a{ /*Styling of anchor elements within the button*/
+font-size: 20px; /*Font size set at 20px;*/
+color: white; /*Color set at white- contrasting to background color red*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.Thingstodo button:hover { /*Styling of button when it is hovered*/
+background-color: lightblue; /*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Thingstodo h2 { /*Styling of H2 elements within things to do div*/
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+margin-left: 30px; /*- ensures heading is central in relation to other content on page*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+}
+.Thingstodo p {
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:30px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+width:80%;/*Width of paragraph set a 80%- helps makes text clear for reader-fills lots of page*/
+margin-left: 10%;/*Margin left 10% ensures paragraph is situated on left hand side of the page*/
+}
+
+/*Styling of London Landmarks page*/
+.LondonLandmarks img {
+transition: width 1s, height 1s, transform 1s;/*Informs the browser to take 1 second complete transform the logo, adjust the height and width*/
+width:80%;/*Width of images set a 80%- helps compatibilty with mobile*/
+padding-left: 10px;/*Padding left-10px ensures not overalapping*/
+margin-left: 10px;/*Margin-left: 30px- ensures image is central in relation to other content on page*/
+}
+.LondonLandmarks img:hover{
+width: 120%; /*Ensures entire image is displayed on the page*/
+position: relative;/*positioned relative to its normal position*/
+}
+.LondonLandmarks {
+display: flex;/* Displayed as a flex box so certain commands can be operated*/
+flex-direction: row;/*Ensures content align in a row (horizontel)*/
+}
+ .LondonLandmarks button {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+width:80%;/*Width 80%- same as image*/
+background-color: red;/*Background color set to red-match color theme of button*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 30px;/*Margin-left: 30px- matches image*/
+ }
+.LondonLandmarks button a{
+font-size: 20px;/*Font size set at 20px*/
+  color: white; /*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.LondonLandmarks button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.LondonLandmarks button a:hover {
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.LondonLandmarks p {
+width: 80%;/*Width of paragraph set a 80%- helps makes text clear for reader-fills lots of page*/
+text-align: center;/* Tells the browser to align the text in the footer central*/
+height: 500px; /*Height 300px- ensures consitency throughout the page*/
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+margin-left: 30px;/*Margin-left: 30px- ensures paragraph is inline with other content on page*/
+}
+.LondonLandmarks h3 {
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+width:55%;
+margin-left:18%;
+text-align: center;
+}
+#RAHh3 {
+margin-top: 4.5%; /*Margin top 4.5% ensures content doesn't overlap*/
+}
+#hop {
+margin-top: 27.5%; /*Margin top 27.5%- ensures the text aligns with other content on the page*/
+}
+.row2 img:hover {
+margin-left:-50%; /*Margin left- -2%- ensures the entire image is dispalyed on page*/
+}
+
+
+/*Styling of Places to eat and drink page*/
+.Placestoeatanddrink {
+display: flex;/* Displayed as a flex box so certain commands can be operated*/
+flex-direction: column;/*Ensures content align in a column (vertical)*/
+}
+.Placestoeatanddrink img {
+display: flex;/* Displayed as a flex box so certain commands can be operated*/
+justify-content: space-between;/*Ensures equal space between images*/
+width: 80%; /*Width 80% ensures image is big on page- makes it clear for user*/
+height:80%; /*Height-80% ensures consistency same as width*/
+transition: width 1s, height 1s, transform 1s;/*Informs the browser to take 1 second complete transform the logo, adjust the height and width*/
+margin-left: 10%; /*Margin left- ensures the image doesnt go off the page*/
+}
+.Placestoeatanddrink img:hover {
+width:95%;/*Width 95% ensures bigger than img not hovered- makes it really clear to user*/
+margin-left: 2.5%; /*Margin left- ensures the image doesnt go off the page*/
+}
+ .Placestoeatanddrink button {
+width:80%;/*Width 80%-same as image*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+border-color: white;/*Border color set as white so a button has a white border*/
+display: inline-block;/*Ensures the button sits next to the image*/
+margin-left: 10%;/*Margin left- ensures the image doesnt go off the page- also ensures it is inline with image*/
+ }
+.Placestoeatanddrink button a :hover {
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Placestoeatanddrink button a {
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.Placestoeatanddrink button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Placestoeatanddrink h2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 30%;/*Width 30%- ensures the blue backgroud covers the entire heading*/
+margin-left: 35%;/*Margin left 35% ensures it is enligned centrally in relation to other content on the page*/
+}
+.Shard {
+align-content: center;/*Tells browser to align all the content in the shard div centrally*/
+}
+.Placestoeatanddrink p {
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+width:80%; /*Width of paragraph set a 50%- helps makes text clear for reader-fills lots of page*/
+margin-left: 10%;/*Margin left- ensures paragraph doesnt go off the page and is the correct postion for desired layout- also ensures it is inline with image*/
+padding: 10px;
+}
+
+/*Styling for attarctions page*/
+#HPH2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 30%;/*Width 30%- ensures the blue backgroud covers the entire heading*/
+margin-left: 35%;/*Margin left 35% ensures it is enligned centrally in relation to other content on the page*/
+}
+.HarryPotter video{
+width: 40%;/*Width 40% ensures image is big on page- makes it clear for user*/
+padding-right: :10px; /*Padding-right ensures video and text dont overlap*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.HPbutton button{
+width:40%; /*Width 40%-same as video*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.HPbutton  button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.HPbutton button a {
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+#ShrekH2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+width: 30%;/*Width 30%- ensures the blue backgroud covers the entire heading*/
+margin-left: 35%;/*Margin left 35% ensures it is enligned centrally in relation to other content on the page*/
+}
+.Shrekaventure video{
+width: 40%;/*Width 40% ensures image is big on page- makes it clear for user*/
+padding-right: :10px; /*Padding-right ensures video and text dont overlap*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+margin-right: 10px;/*Margin right 10px- ensures it doesn't go off the page*/
+}
+.Shrekbutton button{
+width:40%; /*Width 40%-same as video*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.Shrekbutton button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Shrekbutton a{
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+#MTH2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 30%;/*Width 30%- ensures the blue backgroud covers the entire heading*/
+margin-left: 35%;/*Margin left 35% ensures it is enligned centrally in relation to other content on the page*/
+}
+.MadameTussuads video {
+width: 40%;/*Width 40% ensures image is big on page- makes it clear for user*/
+padding-right: :10px; /*Padding-right ensures video and text dont overlap*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+margin-right: 10px;/*Margin right 10px- ensures it doesn't go off the page*/
+}
+.MTbutton button{
+width:40%; /*Width 40%-same as video*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.MTbutton button:hover {
+background-color: lightblue; /*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.MTbutton a {
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.HarryPotter p{
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+width: 50%;/*Width of paragraph set a 50%- helps makes text clear for reader-fills lots of page*/
+float: right;/*Ensures the element floats on the right hand side of the page*/
+margin-right: 10px;/*Margin right 10px- ensures it doesn't go off the page*/
+padding: 10px; /*Padding set at 10px, ensures gap between letters- makes it clearer for user*/
+margin-right: 100px; /*Margin right 100px- ensures the paragrpah aligns next to the video*/
+}
+.Shrekaventure p{
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+width: 50%;/*Width of paragraph set a 50%- helps makes text clear for reader-fills lots of page*/
+float: right;/*Ensures the element floats on the right hand side of the page*/
+margin-right: 100px;  /*Margin right 100px- ensures the paragrpah aligns next to the video*/
+}
+.MadameTussuads p{
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+width: 50%;/*Width of paragraph set a 50%- helps makes text clear for reader-fills lots of page*/
+float: right;/*Ensures the element floats on the right hand side of the page*/
+margin-right: 100px; /*Margin right 100px- ensures the paragrpah aligns next to the video*/
+}
+#LTMH2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 30%;/*Width 30%- ensures the blue backgroud covers the entire heading*/
+margin-left: 35%;/*Margin left 35% ensures it is enligned centrally in relation to other content on the page*/
+}
+.LondonTransportMuseum video {
+width: 40%;/*Width 40% ensures image is big on page- makes it clear for user*/
+padding-right: :10px; /*Padding-right ensures video and text dont overlap*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+margin-right: 10px;/*Margin right 10px- ensures it doesn't go off the page*/
+}
+.LTMbutton button{
+width:40%; /*Width 40%-same as video*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.LTMbutton button:hover {
+background-color: lightblue; /*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.LTMbutton a {
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.LondonTransportMuseum p{
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+width: 50%;/*Width of paragraph set a 50%- helps makes text clear for reader-fills lots of page*/
+float: right;/*Ensures the element floats on the right hand side of the page*/
+margin-right: 100px; /*Margin right 100px- ensures the paragrpah aligns next to the video*/
+}
+#EALH2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 30%;/*Width 30%- ensures the blue backgroud covers the entire heading*/
+margin-left: 35%;/*Margin left 35% ensures it is enligned centrally in relation to other content on the page*/
+}
+.EmiratesAirLine video {
+width: 40%;/*Width 40% ensures image is big on page- makes it clear for user*/
+padding-right: :10px; /*Padding-right ensures video and text dont overlap*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+margin-right: 10px;/*Margin right 10px- ensures it doesn't go off the page*/
+}
+.EALbutton button{
+width:40%; /*Width 40%-same as video*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.EALbutton button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.EALbutton a {
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.EmiratesAirLine p{
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+width: 50%;/*Width of paragraph set a 50%- helps makes text clear for reader-fills lots of page*/
+float: right;/*Ensures the element floats on the right hand side of the page*/
+margin-right: 100px; /*Margin right 100px- ensures the paragrpah aligns next to the video*/
+}
+#KH2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 30%;/*Width 30%- ensures the blue backgroud covers the entire heading*/
+margin-left: 35%;/*Margin left 35% ensures it is enligned centrally in relation to other content on the page*/
+}
+.Kidzania video {
+width: 40%;/*Width 40% ensures image is big on page- makes it clear for user*/
+padding-right: :10px; /*Padding-right ensures video and text dont overlap*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+margin-right: 10px;/*Margin right 10px- ensures it doesn't go off the page*/
+}
+.Kbutton button{
+width:40%; /*Width 40%-same as video*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.Kbutton button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Kbutton a {
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.Kidzania p{
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+width: 50%;/*Width of paragraph set a 50%- helps makes text clear for reader-fills lots of page*/
+float: right;/*Ensures the element floats on the right hand side of the page*/
+margin-right: 100px; /*Margin right 100px- ensures the paragrpah aligns next to the video*/
+}
+
+/*Styling of The West End page*/
+.Wicked button{
+width:50%;/*Width 48.5%, ensures the button is the same width as video*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+color: white;/*Text color-white*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 49.25%;/*Margin-left ensures the button is on the right hand side of the page/aligns with video*/
+}
+.Wicked button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Wicked a{
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.Wicked video {
+width: 50%;/*Width of video set a 50%- helps compatibilty with mobile*/
+margin-left: 50px; /*Margin left 50px- ensures video is situated on left hand side of page*/
+float: right;/*Ensures the element floats on the right hand side of the page*/
+padding-left: 10px;/*Padding left-10px ensures not overalapping*/
+padding-right: 10px;/*Padding right-10px ensures not overalapping*/
+}
+#WickedH2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 25%;/*Ensures background covers all of heading*/
+margin-left: 37%;/*Margin-left 37% ensures it is central-in realation to content on page*/
+}
+.Wicked p{
+width:40%;/*Width of paragraph set a 49%- helps makes text clear for reader-fills lots of page*/
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding: 10px;/*Padding set at 10px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.Frozen button{
+width:50%;/*Width of button set a 49%- matches width of paragraph*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+color: white;/*Text color-white*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 0.7%;/*Margin left 1.2%- ensures it doesn't go off the page*/
+}
+.Frozen button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Frozen button a{
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.Frozen Video{
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+float: left;/*Ensures the element floats on the left hand side of the page*/
+width: 50%;/*Width of video set a 50%- helps compatibilty with mobile*/
+padding-right: 20px;/*Padding right-10px ensures not overalapping*/
+}
+#FrozenH2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 25%;/*Ensures background covers all of heading*/
+margin-left: 37%;/*Margin-left 37% ensures it is central-in realation to content on page*/
+}
+.Frozen p{
+width:40%;/*Width of paragraph set a 48%- helps makes text clear for reader-fills lots of page*/
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+margin-left: 53%;/*Margin-left 51% ensures the paragraph is on the right hand side of the page*/
+margin-right: 10px;/*Margin right 10px- ensures it doesn't go off the page*/
+}
+.DearEvanHansen button{
+width:50%;/*Ensures the width of the button is the same video*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+color: white;/*Text color-white*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 49.25%;/*Margin-left ensures the button is on the right hand side of the page/aligns with video*/
+}
+.DearEvanHansen button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.DearEvanHansen button a{
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.DearEvanHansen video {
+width: 50%;/*Width of video set a 50%- helps compatibilty with mobile*/
+margin-left: 50px;/*Margin left 50px- ensures video is situated on left hand side of page*/
+float: right;/*Ensures the element floats on the right hand side of the page*/
+padding-left: 10px;/*Padding left-10px ensures not overalapping*/
+padding-right: 10px;/*Padding right-10px ensures not overalapping*/
+}
+#DEHh2 {
+margin-top: 120px;/*Ensures the heading to overlap with content above*/
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+width: 25%;/*Ensures background covers all of heading*/
+margin-left: 37%;/*Margin-left 37% ensures it is central-in realation to content on page*/
+}
+.DearEvanHansen p{
+width:40%;/*Width of button set a 49%- matches width of paragraph*/
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding: 10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.LionKing button{
+width:50%;/*Width of button set a 49%- matches width of paragraph*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+color: white;/*Text color-white*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 0.5%;/*Margin left 1.2%- ensures it doesn't go off the page*/
+}
+.LionKing button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.LionKing button a{
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.LionKing video {
+margin-left: 5px;/*Margin left 10px- ensures it doesn't go off the page*/
+float: left;/*Ensures the element floats on the left hand side of the page*/
+width: 50%;/*Width of video set a 50%- helps compatibilty with mobile*/
+padding-right: 20px;/*Padding right-10px ensures not overalapping*/
+}
+#LKH2 {
+margin-left: 5%;/*Ensures the heading align with video and is on left hand side of page*/
+text-align: center;/* Tells the browser to align the text in the footer central*/
+margin-top: 120px;/*Ensures the heading to overlap with content above*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 25%; /*Ensures background covers all of heading*/
+margin-left: 37%;/*Margin-left 37% ensures it is central-in realation to content on page*/
+}
+.LionKing p{
+width:40%;/*Width of paragraph set a 40%- helps makes text clear for reader-fills lots of page*/
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:10px;/*Padding set at 10px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+margin-left: 53%;/*Margin-left 51% ensures the paragraph is on the right hand side of the page*/
+margin-right: 10px;/*Margin right 10px- ensures it doesn't go off the page*/
+}
+.Heathers button{
+width:50%;/*Width of button set a 48.5%- matches width of paragraph*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+color: white;/*Text color-white*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 49.25%;/*Margin-left ensures the button is on the right hand side of the page/aligns with video*/
+}
+.Heathers button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Heathers button a{
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.Heathers video {
+width: 50%;/*Width of video set a 50%- helps compatibilty with mobile*/
+margin-left: 50px;/*Margin left 50px- ensures video is situated on left hand side of page*/
+float: right; /*Float:right ensures the video floats/fixed on the right hand side of the page*/
+padding-left: 10px;/*Padding left-10px ensures not overalapping*/
+padding-right: 10px;/*Padding right-10px ensures not overalapping*/
+}
+#HH2 {
+margin-top: 120px;/*Ensures the heading to overlap with content above*/
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+width: 25%;/*Ensures background covers all of heading*/
+margin-left: 37%;/*Margin-left 37% ensures it is central-in realation to content on page*/
+}
+.Heathers p{
+width:40%;/*Width of paragraph set a 49%- helps makes text clear for reader-fills lots of page*/
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding: 10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.MammaMia button{
+width:50%;/*Width of button set a 49%- matches width of paragraph*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Background color set to red-match color theme of button*/
+color: white;/*Text color-white*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 1.2%;/*Margin left 1.2%- ensures it doesn't go off the page*/
+}
+.MammaMia button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.MammaMia button a{
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.MammaMia video {
+margin-left: 5px;/*Margin left 10px- ensures it doesn't go off the page*/
+float: left;/*Ensures the element floats on the left hand side of the page*/
+width: 50%;/*Width of video set a 50%- helps compatibilty with mobile*/
+padding-left: 5px;/*Padding left-10px ensures not overalapping*/
+}
+#MMH2 {
+margin-left: 5%;/*Ensures the heading align with video and is on left hand side of page*/
+text-align: center;/* Tells the browser to align the text in the footer central*/
+margin-top: 120px;/*Ensures the heading to overlap with content above*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 25%;/*Ensures background covers all of heading*/
+margin-left: 37%;/*Margin-left 37% ensures it is central-in realation to content on page*/
+}
+.MammaMia p{
+width:40%;/*Width of paragraph set a 48%- helps makes text clear for reader-fills lots of page*/
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+margin-left: 54%;/*Margin-left 51% ensures the paragraph is on the right hand side of the page*/
+}
+.Matilda button{
+width:50%;/*Width of button set a 48.5%- matches width of paragraph*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Tells the browser the backgroud color of the box should be red */
+color: white;/*Text color-white*/
+border-color: white;/*Border color set as white so a button has a white border*/
+margin-left: 49.25%;/*Margin-left ensures the button is on the right hand side of the page/aligns with video*/
+}
+.Matilda button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Matilda button a{
+font-size: 20px;/*Font size set at 20px*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.Matilda video {
+width: 50%;/*Width of video set a 50%- helps compatibilty with mobile*/
+margin-left: 50px;/*Margin left 50px- ensures video is situated on left hand side of page*/
+float: right;/*Ensures the element floats on the right hand side of the page*/
+padding-left: 10px;/*Padding left-10px ensures not overalapping*/
+padding-right: 10px;/*Padding right-10px ensures not overalapping*/
+}
+#MH2 {
+margin-top: 120px;/*Ensures the heading to overlap with content above*/
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 25%;/*Ensures background covers all of heading*/
+margin-left: 37%;/*Margin-left 37% ensures it is central-in realation to content on page*/
+}
+.Matilda p{
+width:40%;/*Width of paragraph set a 49%- helps makes text clear for reader-fills lots of page*/
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding: 10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+
+/*Styling of accomondation page*/
+.Accomodation img {
+width:80%;/*Width of images set a 80%- helps compatibilty with mobile*/
+margin-left: 10%;/*Margin left 10% ensures image is situated on left hand side of the page*/
+align-items: center;/*Tells the browser to align the images central*/
+}
+.Accomodation img:hover{
+width:95%;/*Width 95% ensures bigger than img not hovered- makes it really clear to user*/
+margin-left: 2.5%;/*Informs the browser to adjust the margin smaller to 2.5% when image is hovered as image is bigger*/
+}
+.Accomodation {
+display: flex;/* Displayed as a flex box so certain commands can be operated*/
+flex-direction: column;/*Ensures content align in a column (vertical)*/
+}
+.Accomodation p {
+width:80%;/*Width of paragraph set the same as image*/
+margin-left: 10%;/*Margin left 10% ensures paragraph is situated on left hand side of the page*/
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+}
+.Accomodation h2 {
+padding: 10px;/*Padding-left 10 px ensures nothing overlapping the header*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+text-align: center;/* Tells the browser to align the text in the footer central*/
+background-color:lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+width: 40%; /*Width 40%- ensures the background color covers the entire header*/
+margin-left: 30%; /*Margin left-30% ensures it is inline centrally in relation to content on the page*/
+}
+.Accomodation button {
+width:80%;/*Ensures width is same as parapraph and image*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+background-color: red;/*Tells the browser the backgroud color of the box should be red */
+border-color: white;/*Border color set as white so a button has a white border*/
+display: inline-block;/*Diffrent to display: inline, display: inline-block allows to set a width and height on the element.*/
+margin-left: 10%;/*Margin left 10% ensures image is situated on left hand side of the page- also that is inlien with parapgraph and image*/
+}
+.Accomodation button a :hover {
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Accomodation button a {
+font-size: 20px;/*Font size set at 20px*/
+ color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+}
+.Accomodation button:hover {
+ background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+
+/*Styling of the Travel page*/
+#Tube {
+float:left;/*Ensures the element floats on the left hand side of the page*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+width: 50%;/*Width of video set a 50%- helps compatibilty with mobile*/
+transition: width 1s, height 1s, transform 1s;/*Informs the browser to take 1 second complete transform the logo, adjust the height and width*/
+padding-right: 10px; /*Ensures no overlapping*/
+}
+#Riverbus {
+float:left;/*Ensures the element floats on the left hand side of the page*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+width: 50%;/*Width of video set a 50%- helps compatibilty with mobile*/
+transition: width 1s, height 1s, transform 1s;/*Informs the browser to take 1 second complete transform the logo, adjust the height and width*/
+padding-right: 10px; /*Ensures no overlapping*/
+}
+#Riverbus:hover {
+width: 95%;/*Width 95% ensures bigger than img not hovered- makes it really clear to user*/
+margin-left: 2.5%;/*Informs the browser to adjust the margin smaller to 2.5% when image is hovered as image is bigger*/
+}
+#Bus:hover {
+width: 95%;/*Width 95% ensures bigger than img not hovered- makes it really clear to user*/
+margin-left: 2.5%;/*Informs the browser to adjust the margin smaller to 2.5% when image is hovered as image is bigger*/
+}
+#Tube:hover {
+Position:relative;/*positioned relative to its normal position*/
+width: 95%;/*Width 90% ensures bigger than img not hovered- makes it really clear to user*/
+margin-left: 2.5%;/*Informs the browser to adjust the margin smaller to 2.5% when image is hovered as image is bigger*/
+}
+.Bus button {
+background-color: red;/*Tells the browser the backgroud color of the box should be red */
+border-color: white;/*Border color set as white so a button has a white border*/
+display: inline-block;/*Diffrent to display: inline, display: inline-block allows to set a width and height on the element.*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+font-size: 20px;/*Font size set at 20px*/
+float: right;/*Ensures the element floats on the right hand side of the page*/
+width: 50%;/*Width:49%-ensures width is the same as paragraphs?-check*/
+margin-right: 0.7%;
+}
+.Riverbus button {
+width:50%;/*Width:49%-ensures width is the same as paragraphs?-check*/
+background-color: red;/*Tells the browser the backgroud color of the box should be red */
+border-color: white;/*Border color set as white so a button has a white border*/
+display: inline-block;/*Diffrent to display: inline, display: inline-block allows to set a width and height on the element.*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+font-size: 20px;/*Font size set at 20px*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.Tube button {
+width:50%;/*Width:49%-ensures width is the same as paragraphs?-check*/
+background-color: red;/*Tells the browser the backgroud color of the box should be red */
+border-color: white;/*Border color set as white so a button has a white border*/
+display: inline-block;/*Diffrent to display: inline, display: inline-block allows to set a width and height on the element.*/
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+font-size: 20px;/*Font size set at 20px*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+.Bus button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Riverbus button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Tube button:hover {
+background-color: lightblue;/*Background color when user hovers set to light blue-matches color theme of button*/
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Bus a{
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+font-size: 20px;/*Font size set at 20px*/
+}
+.Riverbus a{
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+font-size: 20px;/*Font size set at 20px*/
+}
+.Tube a {
+color: white;/*Text color-white*/
+text-decoration: none;/*Text decoration set as none- assures no underline or color is displayed from hyperlink*/
+font-size: 20px;/*Font size set at 20px*/
+}
+.Bus a button:hover {
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder;/*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Riverbus a button:hover {
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+.Tube a button:hover {
+font-size: 20px;/*Font size set at 20px*/
+font-weight: bolder; /*Bolder-Ensures the text stands out really clearly making it clear for user*/
+}
+#Bus {
+width: 50%;/*Width of image set a 50%- helps compatibilty with mobile*/
+float: right;/*Ensures the element floats on the right hand side of the page*/
+padding-left: 10px;/*Padding left-10px ensures not overalapping*/
+transition: width 1s, height 1s, transform 1s;/*Informs the browser to take 1 second complete transform the logo, adjust the height and width*/
+margin-left: 10px;/*Margin left 10px- ensures it doesn't go off the page*/
+}
+#Bp {
+margin-left: 18px;/*Margin left 10px- ensures it doesn't go off the page*/
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding: 10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+width:40%;/*Ensures the text covers alot of the page and clear to read*/
+}
+.Tube h2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 18%;/*Width- ensures all of header is covered by blue background*/
+height: 20%;/*Width- ensures all of header is covered by blue background*/
+margin-left: 40.5%;/*Ensures the heading is aligned centerally in relation to the content on the page*/
+}
+.Bus h2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+margin-top: 3%;
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 18%;/*Width- ensures all of header is covered by blue background*/
+height: 20%;/*Width- ensures all of header is covered by blue background*/
+margin-left: 40.5%;%;/*Ensures the heading is aligned centerally in relation to the content on the page*/
+}
+.Riverbus h2 {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+margin-top: 28%;
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+font-weight: bold;/*Bold-Ensures the text stands out*/
+background-color: lightblue;/*Background color set to light blue-matches color theme of button*/
+width: 18%;/*Width- ensures all of header is covered by blue background*/
+height: 20%;/*Width- ensures all of header is covered by blue background*/
+margin-left: 40.5%;/*Ensures the heading is aligned centerally in relation to the content on the page*/
+}
+#Tp {
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:10px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+width:40%;/*Ensures the text covers alot of the page and clear to read*/
+margin-left: 54%;/*Margin-left 51% ensures the paragraph is on the right hand side of the page*/
+}
+#RBp {
+background-color: white;/*Tells the browser to set the background colour of the content as white*/
+outline: 1.5px solid black;/*Tells the browser the outline of the paragraph should 1.5px, solid and color black*/
+padding:10px;/*Padding set at 10px, ensures gap between letters- makes it clearer for user*/
+font-family: 'PT Serif Caption', serif;/*The designated font- chosen from google fonts*/ /*Same font throughout the website-ensures consitency*/
+width: 40%;/*Ensures the text covers alot of the page and clear to read*/
+margin-left: 54%;/*Margin-left 51% ensures the paragraph is on the right hand side of the page*/
+}
+.footert {
+margin-top: 3%;/*Margin top 3% ensures the content doesnt overlap the footer*/
+}
+
+/*Styling of Image slideshow- home and things to page*/
+.slideshow-container { /* Slideshow container*/
+max-width: 1000px;/*Ensures the slideshow doesnt go too wide and off the page*/
+position: relative;/*positioned relative to its normal position*/
+margin: auto;/*Margin:auto ensures the margin can be dependent on the image displayed*/
+}
+.prev, .next { /* Next & previous buttons */
+cursor: pointer;/*Indicates a link the curser pointing on the button will indicate a link to the next image*/
+position: absolute;/*Position absolute means the content is positioned relative to the nearest ancestor*/
+top: 50%; /*Ensures the buttons are halfways down the image*/
+width: auto; /*Enables the width to adjust based on the image*/
+padding: 16px;/*Ensures there is a gap around the arrows*/
+color: white;/*Color of the arrows set to white*/
+margin-right: 320px;/*Margin- right 320px ensures the arrows are central to the image*/
+}
+.next {
+right: 0;/* Ensures the next button is positioned to the right of the previous button*/
+}/* Position the "next button" to the right */
+.prev:hover, .next:hover {
+background-color: black; /*Background color of the arrows set to black*/
+opacity: 0.7;/*Opacity set to 0.7 so a little bit of the image displays through*/
+}
+/* Number text (1/3 etc) */
+.numbertext {
+color: white;/*Color of the text telling the user what number is shown is set to white*/
+font-size: 12px;/*Font size set to 12px*/
+padding: 8px; /*Ensures the number aligns in the corner of the image*/
+position: absolute;/*Position absolute means the content is positioned relative to the nearest ancestor*/
+}
+.fade { /*Styling of the animation which fades the slideshow*/
+animation-name: fade;/*Links the animation*/
+animation-duration: 4s;/*Informs the browser the duration of the browser should last 4 seconds*/
+}
+@keyframes fade { /*Keyframes altering the pactity of the fade animation*/
+from {opacity: 0.5} /*Telling the browser the image should go from 0.5 (half opacity) to 1 (full opacity)*/
+to {opacity:1}
+}
+
+/*Styling of contact us page */
+#Contactus {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+background-color: lightblue;/*Background color set to light blue-matches color theme*/
+width: 65%; /*Width 65% ensures the blue background covers the text*/
+margin-left: 17%;/*Ensures the paragraph is central in relation to other content on the page*/
+}
+.Contactinfo p {
+text-align: center;/* Tells the browser to align the text in the footer central*/
+background-color: lightblue; /*Background color set to light blue-matches color theme of button*/
+width: 65%; /*Width 65% ensures it is same width as contact form*/
+margin-left: 17%;/*Ensures text was central- in realtion to other content on the page*/
+}
+
+/*Styling of contact us container*/
+input[type=text], select, textarea {
+width: 100%; /*Width ensures the text area fills the entire input box*/
+padding: 12px; /*Ensures there is gap surrounding the text*/
+border: none; /*Ensures there is no border surrounding the input box*/
+box-sizing: border-box; /*Ensures all the input boxes are aline- fill the entire width of the form box*/
+margin-top: 6px;/*Ensures there is gap between text and text input box*/
+margin-bottom: 16px; /*Ensures there is gap between text and text input box*/
+font-family: sans-serif;/*Font family designated*/
+color: white;/*Text color-white*/
+}
+input[type=submit] {/*Styling of submit button*/
+background-color: lightblue;/*Tells the browser the backgroud color of the box should be lightblue */
+color: white;/*Text color-white*/
+padding: 12px;/*Padding ensures the is gap surrounding the text*/
+border: none; /*Ensures there is not border surrounding the button*/
+}
+input[type=submit]:hover {
+opacity:0.7; /*Ensures user is aware they are hovering over submit button*/
+}
+.contactform {
+background-color:red; /*Ensures the form was light blue- matches the theme*/
+padding: 30px;/*Padding set at 30px, ensures gap between letters- makes it clearer for user*/
+width:61%; /*Width 80%- ensures contact form filled alot of the page*/
+margin-left: 17%; /*Ensures the from was central*/
+font-family: sans-serif;/*Font family designated*/
+color: white;/*Text color-white*/
+}
