@@ -1,0 +1,102 @@
+<!DOCTYPE html> <!-- Explaining the Doc type is HTML -->
+<html lang="en" dir="ltr"> <!--Language-English Direction-Left to Right-->
+
+<head> <!--Start of head-->
+<meta charset="utf-8"> <!--telling the browser to use the UTF-8 character encoding- converts characters into machine readable text-->
+<link rel="stylesheet" href="CSS\Style.CSS"> <!-- Link to CSS stylesheet--> <!-- rel-Specfies the relationship between this page and the link- in this case it is this pages stylesheet--> <!--href-specifies the link destination--><!--defines the document's title, this title is shown in the browser's title bar or the page's tab--> <!--In this case it is Frozen 2-->
+<link rel="preconnect" href="https://fonts.googleapis.com"><!-- Link to Google Font used for title PT serif--> <!-- rel-Specfies the relationship between this page and the link- in this case it is pre connect(informs the browser that your page intends to establish a connection with another origin)--> <!--href-specifies the link destination-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Link to Google Font used for title PT serif--> <!-- rel-Specfies the relationship between this page and the link- in this case it is pre connect(informs the browser that your page intends to establish a connection with another origin)--> <!--href-specifies the link destination--><!--Cross origin- enables resources on a webpage to be requested from another domain outside their own domain-->
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet"> <!-- Link to Google Font used for title PT serif--> <!--href-specifies the link destination--> <!-- rel-Specfies the relationship between this page and the link- in this case it links to the stylesheet due to it being responsible for the styling of the font-->
+<link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Link to Google Font used for title Diplomata SC--> <!-- rel-Specfies the relationship between this page and the link- in this case it is pre connect(informs the browser that your page intends to establish a connection with another origin)--> <!--href-specifies the link destination-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Link to Google Font used for title Diplomata SC--> <!-- rel-Specfies the relationship between this page and the link- in this case it is pre connect(informs the browser that your page intends to establish a connection with another origin)--> <!--href-specifies the link destination--><!--Cross origin- enables resources on a webpage to be requested from another domain outside their own domain-->
+<link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap" rel="stylesheet"> <!-- Link to Google Font used for title Diplomata SC--> <!--href-specifies the link destination--> <!-- rel-Specfies the relationship between this page and the link- in this case it links to the stylesheet due to it being responsible for the styling of the font-->
+<meta name="viewport" content="width=device-width, inital scale=1.0"> <!--meta name= viewport- the user's visible area of the page--> <!--width=device-width- tells the browser that the width of the page should follow the width of the screen of the device, initial-scale=1.0- tells the browser the initial zoom level wanted when the page is first loaded by a user-->
+<title>Placestoeatanddrink</title> <!--defines the document's title, this title is shown in the browser's title bar or the page's tab--> <!--In this case it is Attractions-->
+<style>@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');</style> <!--Styling of Diplomata font--> <!--@import references the file to import (similar to linking CSS Stylesheet)--><!--URL links to file enabling the font to styled-->
+</head> <!--End of head-->
+
+<body> <!--Start of body-->
+<h1>Explore London</h1> <!--Title of website-appears on every page--> <!--H1 as it is the most prominent heading throughout the site-->
+
+<!--Start of navigation menu-->
+<div class="navbar"> <!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<a href=Home.html>Home</a> <!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (home page)-->
+<div class="subnav"> <!--Start of subnavigation menu--><!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<button class="subnavbtn"><a href=Thingstodo.html>Things to do</a></button> <!--Button tag defines a clickable button--> <!--Button-Specifies which element activates Sub navigation menu--> <!--Class name-enables certain elements to be styled--><!--anchor element containing href--> <!--href-specifying the link destination (things to do page)-->
+<div class="subnav-content"><!--Anchor element defines a hyperlink--><!--Start of content (anchor elements) which appear when sub navigation menu is displayed--> <!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<a href=Landmarks.html>Landmarks</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Landmarks)-->
+<a href=Placestoeatanddrink.html>Places to eat and drink</a><!--anchor element containing href--> <!--href-specifying the link destination (Places to eat and drink)-->
+<a href=Attractions.html>Attractions</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Attractions)-->
+<a href=TheWestEnd.html>The West End</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (The West End)-->
+</div><!--End of Sub-Navigation content (anchor elements )-->
+</div><!--End of Sub-Navigation menu-->
+<a href=Accomodation.html>Accomodation</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Accomodation)-->
+<a href=Travel.html>Travel</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Travel)-->
+<a href=ContactUs.html>Contact Us</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Contact Us)-->
+<div class="search"><!--Beginning of Search bar-->
+<form action="PHP/Search.php"><!--Form-Container for certain input elements,utilised as users are going to be inputing data-->
+<input type="text" placeholder="Search.." name="search"><!--Input tag- specifies an input area where a user can input data-->
+<button id="submit"type="submit">submit</button><!--Button tag defines a clickable button--> <!--This button acts as a submit button for the user-->
+</form><!--End of Form container-->
+</div><!--End of Search bar-->
+</div><!--End of Navigation menu-->
+
+<div class="Placestoeatanddrink"><!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<!--Start of Div containing all the elements about Maxwells-->
+<div class="Maxwells"><!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<h2>Maxwells Covent Garden</h2><!--Title of Accomodation--><!--H2 second largest header--><!--Selected so it stood out but not as big as main title-->
+<img src="Image/Maxwells.jpeg" alt="Maxwells"><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what t is displayed if image doesn't load-->
+<button> <a href="https://www.maxwells.co.uk/">Maxwells London</a></button><!--Button tag defines a clickable button--> <!--Inside the tag tells the browser what happens when user clicks on it, in this case to resturant website--> <!--href-specifies the link destination-->
+<p>Maxwell's Bar & Grill is an American diner-style, family restaurant serving mouth-watering Burgers, Ribs, famous Freakshakes and lots more!</p><!--Paragraph element containg text informing users about the resturant-->
+</div><!--End of Div containing all the elements about Maxwells-->
+<!--Start of Div containing all the elements about Steak and Co-->
+<div class="SteakandCo"><!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<h2>Steak and Company</h2><!--Title of Accomodation--><!--H2 second largest header--><!--Selected so it stood out but not as big as main title-->
+<img src="Image/Steak and Co.jpeg" alt="Steak and Co"><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what t is displayed if image doesn't load-->
+<button> <a href="https://www.steakandco.com/">Steak and Co</a> </button><!--Button tag defines a clickable button--> <!--Inside the tag tells the browser what happens when user clicks on it, in this case to resturant website--> <!--href-specifies the link destination-->
+<p>We will turn over a new leaf as Steak and Company, along with a brand-new menu of contemporary, vibrant dishes across all our branches. *Hot stones and Halal are discontinued from 24th April 2022. At Steak & Co. quality runs through our veins, and we are so proud of everything we do. We cater to the most dedicated carnivore with the Steak side of our menu and those who are looking for something different in our & Co. side of the menu. Serving only the finest steak, which has been carefully selected and prepared by our master butchers and cooked to perfection. The steaks are first caramelized on our chargrill to seal in the flavour then you choose an infused butter, a salt or shake and a sauce as a final accompaniment. Our other three restaurants are located in London’s West End with the flagship branch in Leicester Square, another in the vibrant Piccadilly Circus, and a local neighbourhood favourite in Gloucester Road.</p><!--Paragraph element containg text informing users about the resturant-->
+</div><!--End of Div containing all the elements about Steak and Co-->
+<!--Start of Div containing all the elements about Aqua Shard-->
+<div class="Shard"><!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<h2>Aqua at the Shard</h2><!--Title of Accomodation--><!--H2 second largest header--><!--Selected so it stood out but not as big as main title-->
+<img src="Image/Resturant 3.jpg" alt="AquaShard"><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what t is displayed if image doesn't load-->
+<button> <a href="https://www.the-shard.com/restaurant-bars/aqua-shard">The Shard</a> </button><!--Button tag defines a clickable button--> <!--Inside the tag tells the browser what happens when user clicks on it, in this case to resturant website--> <!--href-specifies the link destination-->
+<p>Discover contemporary British dishes using the finest seasonal ingredients and carefully crafted cocktails all within Western Europe’s tallest building. Our spectacular space has floor-to-ceiling glass windows offering 360-degree views of London.</p><!--Paragraph element containg text informing users about the resturant-->
+</div><!--End of Div containing all the elements about Aqua Shard-->
+<!--Start of Div containing all the elements about The Ivy-->
+<div class="Ivy"><!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<h2>The Ivy Covent Garden</h2><!--Title of Accomodation--><!--H2 second largest header--><!--Selected so it stood out but not as big as main title-->
+<img src="Image/The Ivy.jpg" alt="Ivy"><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what t is displayed if image doesn't load-->
+<button> <a href="https://theivymarketgrill.com/">The Ivy</a> </button><!--Button tag defines a clickable button--> <!--Inside the tag tells the browser what happens when user clicks on it, in this case to resturant website--> <!--href-specifies the link destination-->
+<p>Discover contemporary British dishes using the finest seasonal ingredients and carefully crafted cocktails all within Western Europe’s tallest building. Our spectacular space has floor-to-ceiling glass windows offering 360-degree views of London.</p><!--Paragraph element containg text informing users about the resturant-->
+</div><!--End of Div containing all the elements about The Ivy-->
+<!--Start of Div containing all the elements about Hard Rock Cafe -->
+<div class="Hardrock"><!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<h2>Hard Rock Cafe London</h2><!--Title of Accomodation--><!--H2 second largest header--><!--Selected so it stood out but not as big as main title-->
+<img src="Image/Hard rock cafe .jpg" alt="HardRock"><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what t is displayed if image doesn't load-->
+<button> <a href="https://www.hardrockcafe.com/location/london/">Hardrock Cafe</a> </button><!--Button tag defines a clickable button--> <!--Inside the tag tells the browser what happens when user clicks on it, in this case to resturant website--> <!--href-specifies the link destination-->
+<p>Our food inspires locals and tourists alike to visit Hard Rock Cafe London. Enjoy freshly prepared American entrees and classic favorites like our Legendary® Burger. From flavorful salads, to savory signature dishes, our chefs use only the freshest ingredients to create culinary perfection for every guest.</p><!--Paragraph element containg text informing users about the resturant-->
+</div><!--End of Div containing all the elements about Hard Rock Cafe-->
+<!--Start of Div containing all the elements about Rainforest Cafe-->
+<div class="Rainforest Cafe"><!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<h2>Rainforest Cafe London</h2><!--Title of Accomodation--><!--H2 second largest header--><!--Selected so it stood out but not as big as main title-->
+<img src="Image/Rainforest cafe.jpg" alt="Rainforest Cafe"><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what t is displayed if image doesn't load-->
+<button> <a href="https://www.therainforestcafe.co.uk/">Rainforest Cafe</a> </button><!--Button tag defines a clickable button--> <!--Inside the tag tells the browser what happens when user clicks on it, in this case to resturant website--> <!--href-specifies the link destination-->
+<p>Our food inspires locals and tourists alike to visit Hard Rock Cafe London. Enjoy freshly prepared American entrees and classic favorites like our Legendary® Burger. From flavorful salads, to savory signature dishes, our chefs use only the freshest ingredients to create culinary perfection for every guest.</p><!--Paragraph element containg text informing users about the resturant-->
+</div><!--End of Div containing all the elements about Rainforest Cafe-->
+</div>
+
+<footer> <!--Beginning of footer-->
+<br><br><!--Line break in text ensuring gap between elements-->
+<img id="Logo"src="Image/Logo.png" alt="Logo"><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what t is displayed if image doesn't load--><!--ID-Enables that specific element to be styled seperatly-->
+<p>Email:explorelondon@gmail.com</p> <!--Paragraph element containg text of email adress-->
+<p>Phone:01664 678 245</p><!--Paragraph element containg text of phone number-->
+<p>We can't wait to hear from you!</p> <!--Paragraph element containg text saying to users that we look forward to any contact they make-->
+<a href="https://twitter.com/visitlondon"><img id="tlogo" src="Image/Twitter logo.png" alt="Twitter logo"></a> <!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Social media page)--><!--Image also embedded-what user clicks to go to hyperlink--><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what is displayed if image doesn't load--><!--ID-Enables that specific element to be styled seperatly-->
+<a href="https://www.facebook.com/visitlondon/"><img id="flogo" src="Image/Facebook logo.png" alt="Facebook logo"></a> <!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Social media page)--><!--Image also embedded-what user clicks to go to hyperlink--><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what is displayed if image doesn't load--><!--ID-Enables that specific element to be styled seperatly-->
+<a href="https://www.instagram.com/visitlondon/?hl=en"><img id="ilogo" src="Image/Instagram logo.png" alt=""></a> <!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Social media page)--><!--Image also embedded-what user clicks to go to hyperlink--><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what is displayed if image doesn't load--><!--ID-Enables that specific element to be styled seperatly-->
+</footer><!--End of footer-->
+
+<body><!--End of body-->
+
+</html><!--End of HTML-->

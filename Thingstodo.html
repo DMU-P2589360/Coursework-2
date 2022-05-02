@@ -1,0 +1,125 @@
+<!DOCTYPE html> <!-- Explaining the Doc type is HTML -->
+<html lang="en" dir="ltr"> <!--Language-English Direction-Left to Right-->
+
+<head> <!--Start of head-->
+<meta charset="utf-8"> <!--telling the browser to use the UTF-8 character encoding- converts characters into machine readable text-->
+<link rel="stylesheet" href="CSS\Style.CSS"> <!-- Link to CSS stylesheet--> <!-- rel-Specfies the relationship between this page and the link- in this case it is this pages stylesheet--> <!--href-specifies the link destination--><!--defines the document's title, this title is shown in the browser's title bar or the page's tab--> <!--In this case it is Frozen 2-->
+<link rel="preconnect" href="https://fonts.googleapis.com"><!-- Link to Google Font used for title PT serif--> <!-- rel-Specfies the relationship between this page and the link- in this case it is pre connect(informs the browser that your page intends to establish a connection with another origin)--> <!--href-specifies the link destination-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Link to Google Font used for title PT serif--> <!-- rel-Specfies the relationship between this page and the link- in this case it is pre connect(informs the browser that your page intends to establish a connection with another origin)--> <!--href-specifies the link destination--><!--Cross origin- enables resources on a webpage to be requested from another domain outside their own domain-->
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet"> <!-- Link to Google Font used for title PT serif--> <!--href-specifies the link destination--> <!-- rel-Specfies the relationship between this page and the link- in this case it links to the stylesheet due to it being responsible for the styling of the font-->
+<link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Link to Google Font used for title Diplomata SC--> <!-- rel-Specfies the relationship between this page and the link- in this case it is pre connect(informs the browser that your page intends to establish a connection with another origin)--> <!--href-specifies the link destination-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Link to Google Font used for title Diplomata SC--> <!-- rel-Specfies the relationship between this page and the link- in this case it is pre connect(informs the browser that your page intends to establish a connection with another origin)--> <!--href-specifies the link destination--><!--Cross origin- enables resources on a webpage to be requested from another domain outside their own domain-->
+<link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap" rel="stylesheet"> <!-- Link to Google Font used for title Diplomata SC--> <!--href-specifies the link destination--> <!-- rel-Specfies the relationship between this page and the link- in this case it links to the stylesheet due to it being responsible for the styling of the font-->
+<meta name="viewport" content="width=device-width, inital scale=1.0"> <!--meta name= viewport- the user's visible area of the page--> <!--width=device-width- tells the browser that the width of the page should follow the width of the screen of the device, initial-scale=1.0- tells the browser the initial zoom level wanted when the page is first loaded by a user-->
+<title>Thingstodo</title> <!--defines the document's title, this title is shown in the browser's title bar or the page's tab--> <!--In this case it is Things to do-->
+<style>@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap');</style> <!--Styling of Diplomata font--> <!--@import references the file to import (similar to linking CSS Stylesheet)--><!--URL links to file enabling the font to styled-->
+</head> <!--End of head-->
+
+<body> <!--Start of body-->
+<h1>Explore London</h1> <!--Title of website-appears on every page--> <!--H1 as it is the most prominent heading throughout the site-->
+
+<!--Start of navigation menu-->
+<div class="navbar"> <!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<a href=Home.html>Home</a> <!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (home page)-->
+<div class="subnav"> <!--Start of subnavigation menu--><!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<button class="subnavbtn"><a href=Thingstodo.html>Things to do</a></button> <!--Button tag defines a clickable button--> <!--Button-Specifies which element activates Sub navigation menu--> <!--Class name-enables certain elements to be styled--><!--anchor element containing href--> <!--href-specifying the link destination (things to do page)-->
+<div class="subnav-content"><!--Anchor element defines a hyperlink--><!--Start of content (anchor elements) which appear when sub navigation menu is displayed--> <!--Div to contain certain elements together--><!--Class name-enables certain elements to be styled-->
+<a href=Landmarks.html>Landmarks</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Landmarks)-->
+<a href=Placestoeatanddrink.html>Places to eat and drink</a><!--anchor element containing href--> <!--href-specifying the link destination (Places to eat and drink)-->
+<a href=Attractions.html>Attractions</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Attractions)-->
+<a href=TheWestEnd.html>The West End</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (The West End)-->
+</div><!--End of Sub-Navigation content (anchor elements )-->
+</div><!--End of Sub-Navigation menu-->
+<a href=Accomodation.html>Accomodation</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Accomodation)-->
+<a href=Travel.html>Travel</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Travel)-->
+<a href=ContactUs.html>Contact Us</a><!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Contact Us)-->
+<div class="search"><!--Beginning of Search bar-->
+<form action="PHP/Search.php"><!--Form-Container for certain input elements,utilised as users are going to be inputing data-->
+<input type="text" placeholder="Search.." name="search"><!--Input tag- specifies an input area where a user can input data-->
+<button id="submit"type="submit">submit</button><!--Button tag defines a clickable button--> <!--This button acts as a submit button for the user-->
+</form><!--End of Form container-->
+</div><!--End of Search bar-->
+</div><!--End of Navigation menu-->
+
+<!-- Slideshow container -->
+<div class="slideshow-container"> <!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<!-- Full-width images with number and caption text -->
+<div class="mySlides fade"><!--Div containing elements of first image--><!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<div class="numbertext">1/6</div><!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<img src="Image/Things to do s1.jpg" style="width:100%"> <!--img-used to embed image--> <!--First image embedded with SRC telling the browser where to find the image--> <!--Style attribute telling the browser the image width needs to be 100%-->
+</div> <!--End of Div containg elements of First image-->
+<div class="mySlides fade"><!--Div containing elements of second image--><!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<div class="numbertext">2/6</div><!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<img src="Image/Things to do s2.jpg" style="width:100%"><!--img-used to embed image--> <!--Second image embedded with SRC telling the browser where to find the image--> <!--Style attribute telling the browser the image width needs to be 100%-->
+</div><!--End of Div containg elements of Second image-->
+<div class="mySlides fade"><!--Div containing elements of third image--><!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<div class="numbertext">3/6</div><!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<img src="Image/S1-Taxi.jpg" style="width:100%"><!--img-used to embed image--> <!--Third image embedded with SRC telling the browser where to find the image--> <!--Style attribute telling the browser the image width needs to be 100%-->
+</div><!--End of Div containg elements of Third image-->
+<div class="mySlides fade"><!--Div containing elements of Fourth image--><!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<div class="numbertext">4/6</div><!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<img src="Image/Things to do s3.jpg" style="width:100%"><!--img-used to embed image--> <!--Fourth image embedded with SRC telling the browser where to find the image--> <!--Style attribute telling the browser the image width needs to be 100%-->
+</div><!--End of Div containg elements of Fourth image-->
+<div class="mySlides fade"><!--Div containing elements of Fifth image--><!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<div class="numbertext">5/6</div><!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<img src="Image/S1-Lanscape.jpg" style="width:100%"><!--img-used to embed image--> <!--Fifthimage embedded with SRC telling the browser where to find the image--> <!--Style attribute telling the browser the image width needs to be 100%-->
+</div> <!--End of Div containg elements of Fifth image-->
+<div class="mySlides fade"><!--Div containing elements of Sixth image--><!--Div-contains certain elements together--><!--Class name-enables certain elements to be styled-->
+<div class="numbertext">6/6</div><!--Class name-enables certain elements to be styled-->
+<img src="Image/Things to do s4.jpg" style="width:100%"><!--img-used to embed image--> <!--Sixth image embedded with SRC telling the browser where to find the image--> <!--Style attribute telling the browser the image width needs to be 100%-->
+</div> <!--End of Div containg elements of Sixth image-->
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <!--Anchor element--><!--Class name-enables certain elements to be styled--><!--On click- the event that occurs when the user clicks on that element,in this case it adjusts the slideshow back to the previous image/slide--><!--So when the user clicks the left arrow button it takes them to the prevous side-->
+<a class="next" onclick="plusSlides(1)">&#10095;</a> <!--Anchor element--><!--Class name-enables certain elements to be styled--><!--On click- the event that occurs when the user clicks on that element,in this case it adjusts the slideshow back to the next image/slide--><!--So when the user clicks the right arrow button it takes them to the prevous side-->
+</div>
+
+<section class="Thingstodo"><!--Begining of things to do section- containing all the elements and information--><!--Class name-enables certain elements to be styled-->
+<section class="Landmarks"> <!--Begining of landmarks section- containing all the elements and information--><!--Class name-enables certain elements to be styled-->
+<img src="Image/London eye.jpg" alt="London Eye"><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what t is displayed if image doesn't load-->
+<button> <a href="Landmarks.html">Landmarks</a></button> <!--Button tag defines a clickable button-->
+</section><!--End of section-->
+<section class="Places"> <!--Begining of places to eat and drink section section- containing all the elements and information--><!--Class name-enables certain elements to be styled-->
+<img src="Image/Shard resturant.jpg" alt="Places to eat and drink">
+<button> <a href="Places to eat and drink.html">Places</a></button> <!--Button tag defines a clickable button-->
+</section><!--End of section-->
+<section class="Attractions"> <!--Begining of Attractions section- containing all the elements and information--><!--Class name-enables certain elements to be styled-->
+<img src="Image/Madame Tussauds 2.jpg" alt="Attractions"> <!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what t is displayed if image doesn't load-->
+<button> <a href="Attractions.html">Attractions</a></button> <!--Button tag defines a clickable button-->
+</section><!--End of section-->
+<section class="WestEnd"> <!--Begining of West End section- containing all the elements and information--><!--Class name-enables certain elements to be styled-->
+<img src="Image/The West End .jpg" alt="Attractions"> <!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what t is displayed if image doesn't load-->
+<button> <a href="The West End.html">West End</a></button> <!--Button tag defines a clickable button-->
+</section> <!--End of section-->
+</section><!--End of section-->
+
+<!--Beginning of Javascript-->
+<script type="text/javascript">
+let slideshow = 1; //Variable- container of javascript, name slideshow-=0 ensures the command starts at 0//
+displayimages(); //he running of display images function*/
+function displayimages() { //Functions enables you to group together code and give it a name.//
+let images;  //Variable- container of javascript, name images commands for the images//
+let slides = document.getElementsByClassName("mySlides"); //Variable- container of javascript, name slides for the commands of the images slides// //Get document by ID informs the browser where to get the images from*/
+for (images = 0; images < slides.length; images++) { //For- creates a loop- tells the browser to repeat this demand on loop// //Informs the browser to begin at value 0 and increment to next vcoomand by 1 based on specified slidelength//
+slides[images].style.display = "none"; //Specifies no further styling to be applied other than ones specified on CSS stylesheet//
+}
+slideshow++; //Specifies the command of going to next slide//
+if (slideshow > slides.length) {slideshow= 1} //if- used to specify code to excecuted- if specific thing is true- in this case if slide length is over move slideshow on by 1 (next image)//
+slides[slideshow-1].style.display = "block"; //Ensures that when slideshow is 1- moved on to next command- style is blocked- doesnt allter//
+setTimeout(displayimages, 3000); //Set timeout- informs the browser the length of image should be displayed// //Informs the browser to Change image every 3 seconds//
+}
+ </script>
+
+ <footer class="footerwe"> <!--Beginning of footer--><!--Class name-enables certain elements to be styled-->
+ <br><br><!--Line break in text ensuring gap between elements-->
+ <img id="Logo"src="Image/Logo.png" alt="Logo"><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what t is displayed if image doesn't load--><!--ID-Enables that specific element to be styled seperatly-->
+ <p>Email:explorelondon@gmail.com</p> <!--Paragraph element containg text of email adress-->
+ <p>Phone:01664 678 245</p><!--Paragraph element containg text of phone number-->
+ <p>We can't wait to hear from you!</p> <!--Paragraph element containg text saying to users that we look forward to any contact they make-->
+ <a href="https://twitter.com/visitlondon"><img id="tlogo" src="Image/Twitter logo.png" alt="Twitter logo"></a> <!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Social media page)--><!--Image also embedded-what user clicks to go to hyperlink--><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what is displayed if image doesn't load--><!--ID-Enables that specific element to be styled seperatly-->
+ <a href="https://www.facebook.com/visitlondon/"><img id="flogo" src="Image/Facebook logo.png" alt="Facebook logo"></a> <!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Social media page)--><!--Image also embedded-what user clicks to go to hyperlink--><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what is displayed if image doesn't load--><!--ID-Enables that specific element to be styled seperatly-->
+ <a href="https://www.instagram.com/visitlondon/?hl=en"><img id="ilogo" src="Image/Instagram logo.png" alt=""></a> <!--Anchor element defines a hyperlink--><!--anchor element containing href--> <!--href-specifying the link destination (Social media page)--><!--Image also embedded-what user clicks to go to hyperlink--><!--Img tag containing image--> <!--src-tells the browser where to find the image--> <!--alt what is displayed if image doesn't load--><!--ID-Enables that specific element to be styled seperatly-->
+ </footer><!--End of footer-->
+
+  </body>
+</html>
